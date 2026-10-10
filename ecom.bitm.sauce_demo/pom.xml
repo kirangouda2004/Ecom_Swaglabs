@@ -24,6 +24,13 @@
 			<version>4.50.0</version>
 		</dependency>
 
+		<!-- Source: https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.46</version>
+		</dependency>
+
 		<!-- TestNG -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -46,7 +53,7 @@
 		</dependency>
 
 	</dependencies>
-	
+
 	<profiles>
 		<profile>
 			<id>Batch</id>
@@ -115,7 +122,7 @@
 				</plugins>
 			</build>
 		</profile>
-		
+
 		<profile>
 			<id>PARALLEL</id>
 			<build>

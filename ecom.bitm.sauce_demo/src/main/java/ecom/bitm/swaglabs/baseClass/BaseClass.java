@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 import org.openqa.selenium.Alert;
@@ -11,6 +13,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -71,7 +74,15 @@ public void setUp(@Optional("chrome") String browserParameter)
     String url = properties.getProperty("url");
 
     if (browser.equals("chrome")) {
-        driver = new ChromeDriver();
+    	final Map<String, Object> chromePrefs = new HashMap<>();
+    	chromePrefs.put("credentials_enable_service", false);
+    	chromePrefs.put("profile.password_manager_enabled", false);
+    	chromePrefs.put("profile.password_manager_leak_detection", false); // <======== This is the important one
+
+    	final ChromeOptions chromeOptions = new ChromeOptions();
+    	chromeOptions.setExperimentalOption("prefs", chromePrefs);
+        driver = new ChromeDriver(chromeOptions);
+        
     } else if (browser.equals("edge")) {
         driver = new EdgeDriver();
     } else if (browser.equals("firefox")) {
