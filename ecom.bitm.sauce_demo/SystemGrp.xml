@@ -8,10 +8,10 @@
 	</groups>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="ecom.bitm.SwagLabs.Cart.TestCase" />
-			<class name="ecom.bitm.SwagLabs.Checkout.TestCase" />
-			<class name="ecom.bitm.SwagLabs.Login.TestCase" />
-			<class name="ecom.bitm.SwagLabs.Product.TestCase" />
+			<class name="ecom.bitm.SwagLabs.Login.Login_Test"/>
+            <class name="ecom.bitm.SwagLabs.Product.Product_Test"/>
+            <class name="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+            <class name="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
 		</classes>
 	</test> <!--
 	Test -->

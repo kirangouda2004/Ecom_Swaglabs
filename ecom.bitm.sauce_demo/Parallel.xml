@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="SwagLabs Parallel Suite"
-       parallel="tests"
-       thread-count="4">
+	parallel="tests"
+	thread-count="4">
 
-    <test name="Login Tests">
-        <classes>
-            <class name="ecom.bitm.SwagLabs.Login.TestCase"/>
-        </classes>
-    </test>
+	<test name="Login Tests">
+		<classes>
+			<class name="ecom.bitm.SwagLabs.Login.Login_Test" />
+		</classes>
+	</test>
 
-    <test name="Product Tests">
-        <classes>
-            <class name="ecom.bitm.SwagLabs.Product.TestCase"/>
-        </classes>
-    </test>
+	<test name="Product Tests">
+		<classes>
+			<class name="ecom.bitm.SwagLabs.Product.Product_Test" />
+		</classes>
+	</test>
 
-    <test name="Cart Tests">
-        <classes>
-            <class name="ecom.bitm.SwagLabs.Cart.TestCase"/>
-        </classes>
-    </test>
+	<test name="Cart Tests">
+		<classes>
+			<class name="ecom.bitm.SwagLabs.Cart.Cart_Test" />
+		</classes>
+	</test>
 
-    <test name="Checkout Tests">
-        <classes>
-            <class name="ecom.bitm.SwagLabs.Checkout.TestCase"/>
-        </classes>
-    </test>
+	<test name="Checkout Tests">
+		<classes>
+			<class name="ecom.bitm.SwagLabs.Checkout.Checkout_Test" />
+		</classes>
+	</test>
 
 </suite>

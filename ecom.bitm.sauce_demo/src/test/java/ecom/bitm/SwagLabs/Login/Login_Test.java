@@ -10,7 +10,7 @@ import ecom.bitm.saglabs.objRepo.ProductPage;
 import ecom.bitm.swaglabs.baseClass.BaseClass;
 import ecom.bitm.swaglabs.utility.ExcelUtility;
 
-public class TestCase extends BaseClass {
+public class Login_Test extends BaseClass {
 
     private static final String FILE =
             "src/test/resources/TestData.xlsx";
