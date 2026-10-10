@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="system" />
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="ecom.bitm.SwagLabs.Cart.TestCase" />
+			<class name="ecom.bitm.SwagLabs.Checkout.TestCase" />
+			<class name="ecom.bitm.SwagLabs.Login.TestCase" />
+			<class name="ecom.bitm.SwagLabs.Product.TestCase" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

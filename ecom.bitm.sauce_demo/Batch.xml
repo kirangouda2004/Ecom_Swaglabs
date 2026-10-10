@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SwagLabs Batch Suite">
+
+    <test name="SwagLabs All Modules">
+
+        <classes>
+            <class name="ecom.bitm.SwagLabs.Login.TestCase"/>
+            <class name="ecom.bitm.SwagLabs.Product.TestCase"/>
+            <class name="ecom.bitm.SwagLabs.Cart.TestCase"/>
+            <class name="ecom.bitm.SwagLabs.Checkout.TestCase"/>
+        </classes>
+
+    </test>
+
+</suite>

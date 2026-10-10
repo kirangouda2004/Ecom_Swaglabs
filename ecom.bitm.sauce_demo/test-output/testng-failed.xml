@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ecom.bitm.SwagLabs.Checkout.TestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="cancelCheckout"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="checkoutDetails"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- ecom.bitm.SwagLabs.Checkout.TestCase -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
