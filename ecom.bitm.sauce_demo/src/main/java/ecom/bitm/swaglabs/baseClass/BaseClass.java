@@ -108,27 +108,6 @@ public void setUp(@Optional("chrome") String browserParameter)
 }
 
 
-//    @AfterMethod(alwaysRun = true)
-//    public void tearDown(ITestResult result) {
-//
-//        if (result.getStatus() == ITestResult.FAILURE) {
-//
-//            String[] groups =
-//                    result.getMethod().getGroups();
-//
-//            for (String group : groups) {
-//
-//                if (group.equalsIgnoreCase("negative")) {
-//                    takeScreenshot(result.getName());
-//                    break;
-//                }
-//            }
-//        }
-//
-//        if (driver != null) {
-//            driver.quit();
-//        }
-//    }
 @AfterMethod(alwaysRun = true)
 public void tearDown(ITestResult result) {
 
@@ -163,18 +142,15 @@ public void tearDown(ITestResult result) {
     }
 
     protected void waitForElement(WebElement element) {
-        wait.until(
-                ExpectedConditions.visibilityOf(element));
+        wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     protected void waitForElementClickable(WebElement element) {
-        wait.until(
-                ExpectedConditions.elementToBeClickable(element));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     protected void waitForElementLocated(By locator) {
-        wait.until(
-                ExpectedConditions.visibilityOfElementLocated(locator));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
     protected void click(WebElement element) {

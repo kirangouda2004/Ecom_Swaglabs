@@ -1,31 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="57" passed="57" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-10T18:04:51 IST" name="Suite" finished-at="2026-10-10T18:04:55 IST" duration-ms="3981">
+  <suite started-at="2026-10-11T09:18:38 IST" name="Suite" finished-at="2026-10-11T09:23:49 IST" duration-ms="311553">
     <groups>
+      <group name="negative">
+        <method signature="Checkout_Test.emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" name="emptyCheckoutDetails" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" name="invalidLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" name="invalidPassword" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" name="lockedUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Checkout_Test.emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" name="emptyCheckoutDetails" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" name="invalidLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" name="invalidPassword" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" name="lockedUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Checkout_Test.emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" name="emptyCheckoutDetails" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" name="invalidLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" name="invalidPassword" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" name="lockedUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+      </group> <!-- negative -->
       <group name="functional">
-        <method signature="Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" name="validLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Cart_Test.removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" name="removeProductFromCart" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Cart_Test.verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" name="verifyProductInCart" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Checkout_Test.checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" name="checkoutDetails" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Checkout_Test.completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" name="completeOrder" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" name="validLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" name="addProductToCart" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Product_Test.sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" name="sortProducts" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Cart_Test.removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" name="removeProductFromCart" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Cart_Test.verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" name="verifyProductInCart" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Checkout_Test.checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" name="checkoutDetails" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Checkout_Test.completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" name="completeOrder" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" name="validLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" name="addProductToCart" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Product_Test.sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" name="sortProducts" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Cart_Test.removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" name="removeProductFromCart" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Cart_Test.verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" name="verifyProductInCart" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Checkout_Test.checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" name="checkoutDetails" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Checkout_Test.completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" name="completeOrder" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" name="validLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" name="addProductToCart" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Product_Test.sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" name="sortProducts" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
       </group> <!-- functional -->
+      <group name="system">
+        <method signature="Cart_Test.cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" name="cartToCheckout" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Login_Test.visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" name="visualUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" name="productSystemFlow" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Cart_Test.cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" name="cartToCheckout" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Login_Test.visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" name="visualUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" name="productSystemFlow" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Cart_Test.cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" name="cartToCheckout" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Login_Test.visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" name="visualUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" name="productSystemFlow" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+      </group> <!-- system -->
       <group name="smoke">
-        <method signature="Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" name="validLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" name="validLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" name="validLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" name="validLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
       </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="Cart_Test.continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" name="continueShopping" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Checkout_Test.cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" name="cancelCheckout" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" name="errorUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" name="performanceUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" name="productAndCartIntegration" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Cart_Test.continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" name="continueShopping" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Checkout_Test.cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" name="cancelCheckout" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" name="errorUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" name="performanceUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" name="productAndCartIntegration" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+        <method signature="Cart_Test.continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" name="continueShopping" class="ecom.bitm.SwagLabs.Cart.Cart_Test"/>
+        <method signature="Checkout_Test.cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" name="cancelCheckout" class="ecom.bitm.SwagLabs.Checkout.Checkout_Test"/>
+        <method signature="Login_Test.errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" name="errorUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Login_Test.performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" name="performanceUserLogin" class="ecom.bitm.SwagLabs.Login.Login_Test"/>
+        <method signature="Product_Test.productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" name="productAndCartIntegration" class="ecom.bitm.SwagLabs.Product.Product_Test"/>
+      </group> <!-- integration -->
     </groups>
-    <test started-at="2026-10-10T18:04:51 IST" name="Test" finished-at="2026-10-10T18:04:55 IST" duration-ms="3981">
-      <class name="ecom.bitm.SwagLabs.Login.Login_Test">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:51 IST" name="beforeSuite" finished-at="2026-10-10T18:04:51 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:51 IST" name="beforeTest" finished-at="2026-10-10T18:04:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:51 IST" name="beforeClass" finished-at="2026-10-10T18:04:51 IST" duration-ms="3" status="PASS">
+    <test started-at="2026-10-11T09:18:38 IST" name="Test1" finished-at="2026-10-11T09:19:55 IST" duration-ms="77187">
+      <class name="ecom.bitm.SwagLabs.Product.Product_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:05 IST" name="beforeClass" finished-at="2026-10-11T09:19:05 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:51 IST" name="setUp" finished-at="2026-10-10T18:04:54 IST" duration-ms="2361" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:05 IST" name="setUp" finished-at="2026-10-11T09:19:07 IST" duration-ms="2070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,34 +92,1628 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:54 IST" name="validLogin" finished-at="2026-10-10T18:04:55 IST" duration-ms="1349" status="PASS">
+        <test-method signature="addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:07 IST" name="addProductToCart" finished-at="2026-10-11T09:19:08 IST" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:55 IST" name="tearDown" finished-at="2026-10-10T18:04:55 IST" duration-ms="205" status="PASS">
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:08 IST" name="tearDown" finished-at="2026-10-11T09:19:08 IST" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validLogin status=SUCCESS method=Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255] output={null}]]]>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=Product_Test.addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:55 IST" name="afterClass" finished-at="2026-10-10T18:04:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:08 IST" name="setUp" finished-at="2026-10-11T09:19:10 IST" duration-ms="2453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:10 IST" name="productAndCartIntegration" finished-at="2026-10-11T09:19:11 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAndCartIntegration -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:11 IST" name="tearDown" finished-at="2026-10-11T09:19:11 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productAndCartIntegration status=SUCCESS method=Product_Test.productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:11 IST" name="setUp" finished-at="2026-10-11T09:19:14 IST" duration-ms="2811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:14 IST" name="productSystemFlow" finished-at="2026-10-11T09:19:15 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSystemFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:15 IST" name="tearDown" finished-at="2026-10-11T09:19:15 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productSystemFlow status=SUCCESS method=Product_Test.productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:15 IST" name="setUp" finished-at="2026-10-11T09:19:17 IST" duration-ms="1962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:17 IST" name="sortProducts" finished-at="2026-10-11T09:19:18 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:18 IST" name="tearDown" finished-at="2026-10-11T09:19:18 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortProducts status=SUCCESS method=Product_Test.sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@dd05255]" started-at="2026-10-11T09:19:18 IST" name="afterClass" finished-at="2026-10-11T09:19:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:55 IST" name="afterTest" finished-at="2026-10-10T18:04:55 IST" duration-ms="0" status="PASS">
+      </class> <!-- ecom.bitm.SwagLabs.Product.Product_Test -->
+      <class name="ecom.bitm.SwagLabs.Login.Login_Test">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:38 IST" name="beforeTest" finished-at="2026-10-11T09:18:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:38 IST" name="beforeClass" finished-at="2026-10-11T09:18:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:38 IST" name="setUp" finished-at="2026-10-11T09:18:41 IST" duration-ms="3028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:41 IST" name="errorUserLogin" finished-at="2026-10-11T09:18:42 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:42 IST" name="tearDown" finished-at="2026-10-11T09:18:42 IST" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errorUserLogin status=SUCCESS method=Login_Test.errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:42 IST" name="setUp" finished-at="2026-10-11T09:18:44 IST" duration-ms="1579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:44 IST" name="invalidLogin" finished-at="2026-10-11T09:18:44 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:44 IST" name="tearDown" finished-at="2026-10-11T09:18:45 IST" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=Login_Test.invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:45 IST" name="setUp" finished-at="2026-10-11T09:18:47 IST" duration-ms="2456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:47 IST" name="invalidPassword" finished-at="2026-10-11T09:18:48 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:48 IST" name="tearDown" finished-at="2026-10-11T09:18:48 IST" duration-ms="341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPassword status=SUCCESS method=Login_Test.invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:48 IST" name="setUp" finished-at="2026-10-11T09:18:50 IST" duration-ms="2253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:50 IST" name="lockedUserLogin" finished-at="2026-10-11T09:18:51 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:51 IST" name="tearDown" finished-at="2026-10-11T09:18:51 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lockedUserLogin status=SUCCESS method=Login_Test.lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:51 IST" name="setUp" finished-at="2026-10-11T09:18:54 IST" duration-ms="2647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:54 IST" name="performanceUserLogin" finished-at="2026-10-11T09:18:59 IST" duration-ms="5460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performanceUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:59 IST" name="tearDown" finished-at="2026-10-11T09:18:59 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performanceUserLogin status=SUCCESS method=Login_Test.performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:18:59 IST" name="setUp" finished-at="2026-10-11T09:19:01 IST" duration-ms="1990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:19:01 IST" name="validLogin" finished-at="2026-10-11T09:19:02 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:19:02 IST" name="tearDown" finished-at="2026-10-11T09:19:02 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:19:02 IST" name="setUp" finished-at="2026-10-11T09:19:04 IST" duration-ms="2488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:19:04 IST" name="visualUserLogin" finished-at="2026-10-11T09:19:05 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visualUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:19:05 IST" name="tearDown" finished-at="2026-10-11T09:19:05 IST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=visualUserLogin status=SUCCESS method=Login_Test.visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:19:05 IST" name="afterClass" finished-at="2026-10-11T09:19:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@815b41f]" started-at="2026-10-11T09:19:55 IST" name="afterTest" finished-at="2026-10-11T09:19:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@dd05255]" started-at="2026-10-10T18:04:55 IST" name="afterSuite" finished-at="2026-10-10T18:04:55 IST" duration-ms="1" status="PASS">
+      </class> <!-- ecom.bitm.SwagLabs.Login.Login_Test -->
+      <class name="ecom.bitm.SwagLabs.Checkout.Checkout_Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:42 IST" name="setUp" finished-at="2026-10-11T09:19:43 IST" duration-ms="1759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:42 IST" name="beforeClass" finished-at="2026-10-11T09:19:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:43 IST" name="cancelCheckout" finished-at="2026-10-11T09:19:44 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:44 IST" name="tearDown" finished-at="2026-10-11T09:19:45 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelCheckout status=SUCCESS method=Checkout_Test.cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:45 IST" name="setUp" finished-at="2026-10-11T09:19:47 IST" duration-ms="1993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:47 IST" name="checkoutDetails" finished-at="2026-10-11T09:19:48 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:48 IST" name="tearDown" finished-at="2026-10-11T09:19:48 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutDetails status=SUCCESS method=Checkout_Test.checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:48 IST" name="setUp" finished-at="2026-10-11T09:19:50 IST" duration-ms="2162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:50 IST" name="completeOrder" finished-at="2026-10-11T09:19:52 IST" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:52 IST" name="tearDown" finished-at="2026-10-11T09:19:52 IST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeOrder status=SUCCESS method=Checkout_Test.completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:52 IST" name="setUp" finished-at="2026-10-11T09:19:54 IST" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:54 IST" name="emptyCheckoutDetails" finished-at="2026-10-11T09:19:55 IST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCheckoutDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:55 IST" name="tearDown" finished-at="2026-10-11T09:19:55 IST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyCheckoutDetails status=SUCCESS method=Checkout_Test.emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@2f4948e4]" started-at="2026-10-11T09:19:55 IST" name="afterClass" finished-at="2026-10-11T09:19:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ecom.bitm.SwagLabs.Checkout.Checkout_Test -->
+      <class name="ecom.bitm.SwagLabs.Cart.Cart_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:18 IST" name="beforeClass" finished-at="2026-10-11T09:19:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:18 IST" name="setUp" finished-at="2026-10-11T09:19:20 IST" duration-ms="1603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:20 IST" name="cartToCheckout" finished-at="2026-10-11T09:19:21 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartToCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:21 IST" name="tearDown" finished-at="2026-10-11T09:19:21 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartToCheckout status=SUCCESS method=Cart_Test.cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:21 IST" name="setUp" finished-at="2026-10-11T09:19:24 IST" duration-ms="2930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:24 IST" name="continueShopping" finished-at="2026-10-11T09:19:25 IST" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:25 IST" name="tearDown" finished-at="2026-10-11T09:19:25 IST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=continueShopping status=SUCCESS method=Cart_Test.continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:25 IST" name="setUp" finished-at="2026-10-11T09:19:27 IST" duration-ms="2326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:27 IST" name="removeProductFromCart" finished-at="2026-10-11T09:19:38 IST" duration-ms="10827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:38 IST" name="tearDown" finished-at="2026-10-11T09:19:38 IST" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCart status=SUCCESS method=Cart_Test.removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:38 IST" name="setUp" finished-at="2026-10-11T09:19:41 IST" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:41 IST" name="verifyProductInCart" finished-at="2026-10-11T09:19:41 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:41 IST" name="tearDown" finished-at="2026-10-11T09:19:42 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductInCart status=SUCCESS method=Cart_Test.verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@6a78afa0]" started-at="2026-10-11T09:19:42 IST" name="afterClass" finished-at="2026-10-11T09:19:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ecom.bitm.SwagLabs.Cart.Cart_Test -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-10-11T09:19:55 IST" name="Test2" finished-at="2026-10-11T09:22:30 IST" duration-ms="154513">
+      <class name="ecom.bitm.SwagLabs.Product.Product_Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:20:49 IST" name="setUp" finished-at="2026-10-11T09:20:54 IST" duration-ms="4711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:20:49 IST" name="beforeClass" finished-at="2026-10-11T09:20:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:20:54 IST" name="addProductToCart" finished-at="2026-10-11T09:20:54 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:20:54 IST" name="tearDown" finished-at="2026-10-11T09:20:55 IST" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=Product_Test.addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:20:55 IST" name="setUp" finished-at="2026-10-11T09:21:01 IST" duration-ms="5116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:01 IST" name="productAndCartIntegration" finished-at="2026-10-11T09:21:01 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAndCartIntegration -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:01 IST" name="tearDown" finished-at="2026-10-11T09:21:02 IST" duration-ms="898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productAndCartIntegration status=SUCCESS method=Product_Test.productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:02 IST" name="setUp" finished-at="2026-10-11T09:21:11 IST" duration-ms="8445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:11 IST" name="productSystemFlow" finished-at="2026-10-11T09:21:11 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSystemFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:11 IST" name="tearDown" finished-at="2026-10-11T09:21:12 IST" duration-ms="1000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productSystemFlow status=SUCCESS method=Product_Test.productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:12 IST" name="setUp" finished-at="2026-10-11T09:21:18 IST" duration-ms="5678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:18 IST" name="sortProducts" finished-at="2026-10-11T09:21:18 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:18 IST" name="tearDown" finished-at="2026-10-11T09:21:19 IST" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortProducts status=SUCCESS method=Product_Test.sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@2002fc1d]" started-at="2026-10-11T09:21:19 IST" name="afterClass" finished-at="2026-10-11T09:21:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ecom.bitm.SwagLabs.Product.Product_Test -->
+      <class name="ecom.bitm.SwagLabs.Login.Login_Test">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:19:55 IST" name="beforeTest" finished-at="2026-10-11T09:19:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:19:55 IST" name="beforeClass" finished-at="2026-10-11T09:19:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:19:55 IST" name="setUp" finished-at="2026-10-11T09:20:02 IST" duration-ms="6936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:02 IST" name="errorUserLogin" finished-at="2026-10-11T09:20:02 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:02 IST" name="tearDown" finished-at="2026-10-11T09:20:03 IST" duration-ms="898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errorUserLogin status=SUCCESS method=Login_Test.errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:03 IST" name="setUp" finished-at="2026-10-11T09:20:08 IST" duration-ms="4774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:08 IST" name="invalidLogin" finished-at="2026-10-11T09:20:09 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:09 IST" name="tearDown" finished-at="2026-10-11T09:20:10 IST" duration-ms="1236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=Login_Test.invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:10 IST" name="setUp" finished-at="2026-10-11T09:20:15 IST" duration-ms="5681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:15 IST" name="invalidPassword" finished-at="2026-10-11T09:20:16 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:16 IST" name="tearDown" finished-at="2026-10-11T09:20:17 IST" duration-ms="986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPassword status=SUCCESS method=Login_Test.invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:17 IST" name="setUp" finished-at="2026-10-11T09:20:22 IST" duration-ms="5243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:22 IST" name="lockedUserLogin" finished-at="2026-10-11T09:20:22 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:22 IST" name="tearDown" finished-at="2026-10-11T09:20:24 IST" duration-ms="1129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lockedUserLogin status=SUCCESS method=Login_Test.lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:24 IST" name="setUp" finished-at="2026-10-11T09:20:29 IST" duration-ms="5752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:29 IST" name="performanceUserLogin" finished-at="2026-10-11T09:20:35 IST" duration-ms="5380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performanceUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:35 IST" name="tearDown" finished-at="2026-10-11T09:20:36 IST" duration-ms="818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performanceUserLogin status=SUCCESS method=Login_Test.performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:36 IST" name="setUp" finished-at="2026-10-11T09:20:41 IST" duration-ms="5759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:41 IST" name="validLogin" finished-at="2026-10-11T09:20:42 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:42 IST" name="tearDown" finished-at="2026-10-11T09:20:43 IST" duration-ms="921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:43 IST" name="setUp" finished-at="2026-10-11T09:20:48 IST" duration-ms="5037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:48 IST" name="visualUserLogin" finished-at="2026-10-11T09:20:48 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visualUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:48 IST" name="tearDown" finished-at="2026-10-11T09:20:49 IST" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=visualUserLogin status=SUCCESS method=Login_Test.visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:20:49 IST" name="afterClass" finished-at="2026-10-11T09:20:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@6200f9cb]" started-at="2026-10-11T09:22:30 IST" name="afterTest" finished-at="2026-10-11T09:22:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ecom.bitm.SwagLabs.Login.Login_Test -->
+      <class name="ecom.bitm.SwagLabs.Checkout.Checkout_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:00 IST" name="beforeClass" finished-at="2026-10-11T09:22:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:00 IST" name="setUp" finished-at="2026-10-11T09:22:05 IST" duration-ms="5014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:05 IST" name="cancelCheckout" finished-at="2026-10-11T09:22:06 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:06 IST" name="tearDown" finished-at="2026-10-11T09:22:07 IST" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelCheckout status=SUCCESS method=Checkout_Test.cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:07 IST" name="setUp" finished-at="2026-10-11T09:22:12 IST" duration-ms="5376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:12 IST" name="checkoutDetails" finished-at="2026-10-11T09:22:13 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:13 IST" name="tearDown" finished-at="2026-10-11T09:22:14 IST" duration-ms="936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutDetails status=SUCCESS method=Checkout_Test.checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:14 IST" name="setUp" finished-at="2026-10-11T09:22:20 IST" duration-ms="6437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:20 IST" name="completeOrder" finished-at="2026-10-11T09:22:21 IST" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:21 IST" name="tearDown" finished-at="2026-10-11T09:22:22 IST" duration-ms="940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeOrder status=SUCCESS method=Checkout_Test.completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:22 IST" name="setUp" finished-at="2026-10-11T09:22:28 IST" duration-ms="5278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:28 IST" name="emptyCheckoutDetails" finished-at="2026-10-11T09:22:29 IST" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCheckoutDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:29 IST" name="tearDown" finished-at="2026-10-11T09:22:29 IST" duration-ms="899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyCheckoutDetails status=SUCCESS method=Checkout_Test.emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@6f4a47c7]" started-at="2026-10-11T09:22:30 IST" name="afterClass" finished-at="2026-10-11T09:22:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ecom.bitm.SwagLabs.Checkout.Checkout_Test -->
+      <class name="ecom.bitm.SwagLabs.Cart.Cart_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:19 IST" name="beforeClass" finished-at="2026-10-11T09:21:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:19 IST" name="setUp" finished-at="2026-10-11T09:21:25 IST" duration-ms="5841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:25 IST" name="cartToCheckout" finished-at="2026-10-11T09:21:26 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartToCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:26 IST" name="tearDown" finished-at="2026-10-11T09:21:27 IST" duration-ms="938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartToCheckout status=SUCCESS method=Cart_Test.cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:27 IST" name="setUp" finished-at="2026-10-11T09:21:32 IST" duration-ms="5526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:32 IST" name="continueShopping" finished-at="2026-10-11T09:21:33 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:33 IST" name="tearDown" finished-at="2026-10-11T09:21:34 IST" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=continueShopping status=SUCCESS method=Cart_Test.continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:34 IST" name="setUp" finished-at="2026-10-11T09:21:40 IST" duration-ms="5729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:40 IST" name="removeProductFromCart" finished-at="2026-10-11T09:21:50 IST" duration-ms="10736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:50 IST" name="tearDown" finished-at="2026-10-11T09:21:51 IST" duration-ms="903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCart status=SUCCESS method=Cart_Test.removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:51 IST" name="setUp" finished-at="2026-10-11T09:21:58 IST" duration-ms="6820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:58 IST" name="verifyProductInCart" finished-at="2026-10-11T09:21:59 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:21:59 IST" name="tearDown" finished-at="2026-10-11T09:22:00 IST" duration-ms="912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductInCart status=SUCCESS method=Cart_Test.verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@69453e37]" started-at="2026-10-11T09:22:00 IST" name="afterClass" finished-at="2026-10-11T09:22:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ecom.bitm.SwagLabs.Cart.Cart_Test -->
+    </test> <!-- Test2 -->
+    <test started-at="2026-10-11T09:22:30 IST" name="Test3" finished-at="2026-10-11T09:23:49 IST" duration-ms="79790">
+      <class name="ecom.bitm.SwagLabs.Product.Product_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:22:57 IST" name="beforeClass" finished-at="2026-10-11T09:22:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:22:57 IST" name="setUp" finished-at="2026-10-11T09:22:59 IST" duration-ms="2020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:22:59 IST" name="addProductToCart" finished-at="2026-10-11T09:23:00 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:00 IST" name="tearDown" finished-at="2026-10-11T09:23:00 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=Product_Test.addProductToCart()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:00 IST" name="setUp" finished-at="2026-10-11T09:23:02 IST" duration-ms="2202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:02 IST" name="productAndCartIntegration" finished-at="2026-10-11T09:23:03 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAndCartIntegration -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:03 IST" name="tearDown" finished-at="2026-10-11T09:23:03 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productAndCartIntegration status=SUCCESS method=Product_Test.productAndCartIntegration()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:03 IST" name="setUp" finished-at="2026-10-11T09:23:06 IST" duration-ms="2706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:06 IST" name="productSystemFlow" finished-at="2026-10-11T09:23:07 IST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSystemFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:07 IST" name="tearDown" finished-at="2026-10-11T09:23:07 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productSystemFlow status=SUCCESS method=Product_Test.productSystemFlow()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:07 IST" name="setUp" finished-at="2026-10-11T09:23:09 IST" duration-ms="2302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:09 IST" name="sortProducts" finished-at="2026-10-11T09:23:10 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:10 IST" name="tearDown" finished-at="2026-10-11T09:23:10 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortProducts status=SUCCESS method=Product_Test.sortProducts()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Product.Product_Test@7dc0f706]" started-at="2026-10-11T09:23:10 IST" name="afterClass" finished-at="2026-10-11T09:23:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ecom.bitm.SwagLabs.Product.Product_Test -->
+      <class name="ecom.bitm.SwagLabs.Login.Login_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:18:38 IST" name="beforeSuite" finished-at="2026-10-11T09:18:38 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:30 IST" name="setUp" finished-at="2026-10-11T09:22:34 IST" duration-ms="4019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:30 IST" name="beforeTest" finished-at="2026-10-11T09:22:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:30 IST" name="beforeClass" finished-at="2026-10-11T09:22:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:34 IST" name="errorUserLogin" finished-at="2026-10-11T09:22:34 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:34 IST" name="tearDown" finished-at="2026-10-11T09:22:34 IST" duration-ms="368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=errorUserLogin status=SUCCESS method=Login_Test.errorUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:34 IST" name="setUp" finished-at="2026-10-11T09:22:37 IST" duration-ms="2552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:37 IST" name="invalidLogin" finished-at="2026-10-11T09:22:37 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:37 IST" name="tearDown" finished-at="2026-10-11T09:22:38 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=Login_Test.invalidLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:38 IST" name="setUp" finished-at="2026-10-11T09:22:39 IST" duration-ms="1606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:39 IST" name="invalidPassword" finished-at="2026-10-11T09:22:40 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:40 IST" name="tearDown" finished-at="2026-10-11T09:22:40 IST" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPassword status=SUCCESS method=Login_Test.invalidPassword()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:40 IST" name="setUp" finished-at="2026-10-11T09:22:43 IST" duration-ms="2622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:43 IST" name="lockedUserLogin" finished-at="2026-10-11T09:22:43 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:43 IST" name="tearDown" finished-at="2026-10-11T09:22:43 IST" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lockedUserLogin status=SUCCESS method=Login_Test.lockedUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:43 IST" name="setUp" finished-at="2026-10-11T09:22:46 IST" duration-ms="2540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:46 IST" name="performanceUserLogin" finished-at="2026-10-11T09:22:51 IST" duration-ms="5419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performanceUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:51 IST" name="tearDown" finished-at="2026-10-11T09:22:51 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performanceUserLogin status=SUCCESS method=Login_Test.performanceUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:51 IST" name="setUp" finished-at="2026-10-11T09:22:54 IST" duration-ms="2768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:54 IST" name="validLogin" finished-at="2026-10-11T09:22:55 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:55 IST" name="tearDown" finished-at="2026-10-11T09:22:55 IST" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=Login_Test.validLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:55 IST" name="setUp" finished-at="2026-10-11T09:22:57 IST" duration-ms="1854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:57 IST" name="visualUserLogin" finished-at="2026-10-11T09:22:57 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visualUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:57 IST" name="tearDown" finished-at="2026-10-11T09:22:57 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=visualUserLogin status=SUCCESS method=Login_Test.visualUserLogin()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:22:57 IST" name="afterClass" finished-at="2026-10-11T09:22:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:23:49 IST" name="afterTest" finished-at="2026-10-11T09:23:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:ecom.bitm.SwagLabs.Login.Login_Test@3d34d211]" started-at="2026-10-11T09:23:49 IST" name="afterSuite" finished-at="2026-10-11T09:23:49 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- ecom.bitm.SwagLabs.Login.Login_Test -->
-    </test> <!-- Test -->
+      <class name="ecom.bitm.SwagLabs.Checkout.Checkout_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:34 IST" name="beforeClass" finished-at="2026-10-11T09:23:34 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:34 IST" name="setUp" finished-at="2026-10-11T09:23:36 IST" duration-ms="2248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:36 IST" name="cancelCheckout" finished-at="2026-10-11T09:23:37 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:37 IST" name="tearDown" finished-at="2026-10-11T09:23:37 IST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelCheckout status=SUCCESS method=Checkout_Test.cancelCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:37 IST" name="setUp" finished-at="2026-10-11T09:23:40 IST" duration-ms="3060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:40 IST" name="checkoutDetails" finished-at="2026-10-11T09:23:41 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:41 IST" name="tearDown" finished-at="2026-10-11T09:23:42 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutDetails status=SUCCESS method=Checkout_Test.checkoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:42 IST" name="setUp" finished-at="2026-10-11T09:23:44 IST" duration-ms="2083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:44 IST" name="completeOrder" finished-at="2026-10-11T09:23:45 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:45 IST" name="tearDown" finished-at="2026-10-11T09:23:45 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeOrder status=SUCCESS method=Checkout_Test.completeOrder()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:45 IST" name="setUp" finished-at="2026-10-11T09:23:48 IST" duration-ms="2828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:48 IST" name="emptyCheckoutDetails" finished-at="2026-10-11T09:23:49 IST" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCheckoutDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:49 IST" name="tearDown" finished-at="2026-10-11T09:23:49 IST" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyCheckoutDetails status=SUCCESS method=Checkout_Test.emptyCheckoutDetails()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Checkout.Checkout_Test@43c1b556]" started-at="2026-10-11T09:23:49 IST" name="afterClass" finished-at="2026-10-11T09:23:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ecom.bitm.SwagLabs.Checkout.Checkout_Test -->
+      <class name="ecom.bitm.SwagLabs.Cart.Cart_Test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:10 IST" name="beforeClass" finished-at="2026-10-11T09:23:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:10 IST" name="setUp" finished-at="2026-10-11T09:23:12 IST" duration-ms="1986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:12 IST" name="cartToCheckout" finished-at="2026-10-11T09:23:13 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartToCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:13 IST" name="tearDown" finished-at="2026-10-11T09:23:13 IST" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartToCheckout status=SUCCESS method=Cart_Test.cartToCheckout()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:13 IST" name="setUp" finished-at="2026-10-11T09:23:15 IST" duration-ms="2102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:15 IST" name="continueShopping" finished-at="2026-10-11T09:23:16 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:16 IST" name="tearDown" finished-at="2026-10-11T09:23:16 IST" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=continueShopping status=SUCCESS method=Cart_Test.continueShopping()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:16 IST" name="setUp" finished-at="2026-10-11T09:23:19 IST" duration-ms="3056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:19 IST" name="removeProductFromCart" finished-at="2026-10-11T09:23:30 IST" duration-ms="10764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:30 IST" name="tearDown" finished-at="2026-10-11T09:23:30 IST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCart status=SUCCESS method=Cart_Test.removeProductFromCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:30 IST" name="setUp" finished-at="2026-10-11T09:23:33 IST" duration-ms="2537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:33 IST" name="verifyProductInCart" finished-at="2026-10-11T09:23:34 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:34 IST" name="tearDown" finished-at="2026-10-11T09:23:34 IST" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductInCart status=SUCCESS method=Cart_Test.verifyProductInCart()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ecom.bitm.SwagLabs.Cart.Cart_Test@4009e306]" started-at="2026-10-11T09:23:34 IST" name="afterClass" finished-at="2026-10-11T09:23:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ecom.bitm.SwagLabs.Cart.Cart_Test -->
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>

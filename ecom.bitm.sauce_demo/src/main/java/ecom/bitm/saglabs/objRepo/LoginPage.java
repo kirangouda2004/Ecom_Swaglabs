@@ -1,38 +1,48 @@
 package ecom.bitm.saglabs.objRepo;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-    private WebDriver driver;
+    //private WebDriver driver;
 
-    // Locators using the By method
-    private By usernameTextField = By.id("user-name");
-    private By passwordTextField = By.id("password");
-    private By loginButton = By.id("login-button");
-    private By errorMessage = By.cssSelector("h3[data-test='error']");
+    // Locators using @FindBy
+    @FindBy(id = "user-name")
+    private WebElement usernameTextField;
+
+    @FindBy(id = "password")
+    private WebElement passwordTextField;
+
+    @FindBy(id = "login-button")
+    private WebElement loginButton;
+
+    @FindBy(css = "h3[data-test='error']")
+    private WebElement errorMessage;
 
     // Constructor
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
+        //this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     // Enter username
     public void enterUsername(String username) {
-        driver.findElement(usernameTextField).clear();
-        driver.findElement(usernameTextField).sendKeys(username);
+        usernameTextField.clear();
+        usernameTextField.sendKeys(username);
     }
 
     // Enter password
     public void enterPassword(String password) {
-        driver.findElement(passwordTextField).clear();
-        driver.findElement(passwordTextField).sendKeys(password);
+        passwordTextField.clear();
+        passwordTextField.sendKeys(password);
     }
 
     // Click login button
     public void clickLogin() {
-        driver.findElement(loginButton).click();
+        loginButton.click();
     }
 
     // Login with username and password
@@ -44,17 +54,17 @@ public class LoginPage {
 
     // Get login error message
     public String getErrorMessage() {
-        return driver.findElement(errorMessage).getText();
+        return errorMessage.getText();
     }
 
     // Check whether login button is displayed
     public boolean isLoginButtonDisplayed() {
-        return driver.findElement(loginButton).isDisplayed();
+        return loginButton.isDisplayed();
     }
 
     // Check whether password is masked
     public boolean isPasswordMasked() {
-        return driver.findElement(passwordTextField)
+        return passwordTextField
                 .getAttribute("type")
                 .equals("password");
     }
